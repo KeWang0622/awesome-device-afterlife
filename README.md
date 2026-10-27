@@ -18,11 +18,44 @@ Cover and cards are original conceptual illustrations, not screenshots or test e
 
 ## Six places to start
 
-| | |
-| --- | --- |
-| [![Octo4a: Phone → printer host](assets/octo4a.svg)](docs/catalog.md#octo4a)<br>**[Octo4a](docs/catalog.md#octo4a)**<br>Phone → printer host<br>*Available setup*<br>Needs: USB OTG | [![OpenPhotoFrame: Tablet → private photo frame](assets/openphotoframe.svg)](docs/catalog.md#openphotoframe)<br>**[OpenPhotoFrame](docs/catalog.md#openphotoframe)**<br>Tablet → private photo frame<br>*Available setup*<br>Needs: Local photos or Nextcloud share |
-| [![Desk Buddy: Paperwhite → desk companion](assets/desk-buddy.svg)](docs/catalog.md#desk-buddy)<br>**[Desk Buddy](docs/catalog.md#desk-buddy)**<br>Paperwhite → desk companion<br>*Available setup*<br>Needs: Jailbreak with hotfix | [![Batocera: PC → retro console](assets/batocera.svg)](docs/catalog.md#batocera)<br>**[Batocera](docs/catalog.md#batocera)**<br>PC → retro console<br>*Available setup*<br>Needs: 16 GB drive minimum; 32 GB recommended |
-| [![Lyrion Music Server: Squeezebox → local music endpoint](assets/lyrion-squeezebox.svg)](docs/catalog.md#lyrion-squeezebox)<br>**[Lyrion Music Server](docs/catalog.md#lyrion-squeezebox)**<br>Squeezebox → local music endpoint<br>*Available setup*<br>Needs: Supported server computer | [![unmetaportal: Portal → Android appliance](assets/unmetaportal.svg)](docs/catalog.md#unmetaportal)<br>**[unmetaportal](docs/catalog.md#unmetaportal)**<br>Portal → Android appliance<br>*Available setup*<br>Needs: ADB\-enabled firmware |
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+
+[![Octo4a: Phone → printer host](assets/octo4a.svg)](docs/catalog.md#octo4a)<br>**[Octo4a](docs/catalog.md#octo4a)**<br>Phone → printer host<br>*Available setup*<br>Needs: USB OTG
+
+</td>
+<td width="50%" valign="top">
+
+[![OpenPhotoFrame: Tablet → private photo frame](assets/openphotoframe.svg)](docs/catalog.md#openphotoframe)<br>**[OpenPhotoFrame](docs/catalog.md#openphotoframe)**<br>Tablet → private photo frame<br>*Available setup*<br>Needs: Local photos or Nextcloud share
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+[![Desk Buddy: Paperwhite → desk companion](assets/desk-buddy.svg)](docs/catalog.md#desk-buddy)<br>**[Desk Buddy](docs/catalog.md#desk-buddy)**<br>Paperwhite → desk companion<br>*Available setup*<br>Needs: Jailbreak with hotfix
+
+</td>
+<td width="50%" valign="top">
+
+[![Batocera: PC → retro console](assets/batocera.svg)](docs/catalog.md#batocera)<br>**[Batocera](docs/catalog.md#batocera)**<br>PC → retro console<br>*Available setup*<br>Needs: 16 GB drive minimum; 32 GB recommended
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+[![Lyrion Music Server: Squeezebox → local music endpoint](assets/lyrion-squeezebox.svg)](docs/catalog.md#lyrion-squeezebox)<br>**[Lyrion Music Server](docs/catalog.md#lyrion-squeezebox)**<br>Squeezebox → local music endpoint<br>*Available setup*<br>Needs: Supported server computer
+
+</td>
+<td width="50%" valign="top">
+
+[![unmetaportal: Portal → Android appliance](assets/unmetaportal.svg)](docs/catalog.md#unmetaportal)<br>**[unmetaportal](docs/catalog.md#unmetaportal)**<br>Portal → Android appliance<br>*Available setup*<br>Needs: ADB\-enabled firmware
+
+</td>
+</tr>
+</table>
 
 ## Explore the collection
 

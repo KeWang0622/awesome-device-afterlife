@@ -18,11 +18,44 @@
 
 ## 六个值得先看的玩法
 
-| | |
-| --- | --- |
-| [![Octo4a: Phone → printer host](assets/octo4a.svg)](docs/catalog.md#octo4a)<br>**[Octo4a](docs/catalog.md#octo4a)**<br>手机 → 3D 打印主机<br>*已有使用方案*<br>需要: USB OTG | [![OpenPhotoFrame: Tablet → private photo frame](assets/openphotoframe.svg)](docs/catalog.md#openphotoframe)<br>**[OpenPhotoFrame](docs/catalog.md#openphotoframe)**<br>平板 → 私人电子相框<br>*已有使用方案*<br>需要: Local photos or Nextcloud share |
-| [![Desk Buddy: Paperwhite → desk companion](assets/desk-buddy.svg)](docs/catalog.md#desk-buddy)<br>**[Desk Buddy](docs/catalog.md#desk-buddy)**<br>Paperwhite → 桌面助理<br>*已有使用方案*<br>需要: Jailbreak with hotfix | [![Batocera: PC → retro console](assets/batocera.svg)](docs/catalog.md#batocera)<br>**[Batocera](docs/catalog.md#batocera)**<br>电脑 → 复古游戏机<br>*已有使用方案*<br>需要: 16 GB drive minimum; 32 GB recommended |
-| [![Lyrion Music Server: Squeezebox → local music endpoint](assets/lyrion-squeezebox.svg)](docs/catalog.md#lyrion-squeezebox)<br>**[Lyrion Music Server](docs/catalog.md#lyrion-squeezebox)**<br>Squeezebox → 本地音乐终端<br>*已有使用方案*<br>需要: Supported server computer | [![unmetaportal: Portal → Android appliance](assets/unmetaportal.svg)](docs/catalog.md#unmetaportal)<br>**[unmetaportal](docs/catalog.md#unmetaportal)**<br>Portal → 安卓专用设备<br>*已有使用方案*<br>需要: ADB\-enabled firmware |
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+
+[![Octo4a: Phone → printer host](assets/octo4a.svg)](docs/catalog.md#octo4a)<br>**[Octo4a](docs/catalog.md#octo4a)**<br>手机 → 3D 打印主机<br>*已有使用方案*<br>需要: USB OTG
+
+</td>
+<td width="50%" valign="top">
+
+[![OpenPhotoFrame: Tablet → private photo frame](assets/openphotoframe.svg)](docs/catalog.md#openphotoframe)<br>**[OpenPhotoFrame](docs/catalog.md#openphotoframe)**<br>平板 → 私人电子相框<br>*已有使用方案*<br>需要: Local photos or Nextcloud share
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+[![Desk Buddy: Paperwhite → desk companion](assets/desk-buddy.svg)](docs/catalog.md#desk-buddy)<br>**[Desk Buddy](docs/catalog.md#desk-buddy)**<br>Paperwhite → 桌面助理<br>*已有使用方案*<br>需要: Jailbreak with hotfix
+
+</td>
+<td width="50%" valign="top">
+
+[![Batocera: PC → retro console](assets/batocera.svg)](docs/catalog.md#batocera)<br>**[Batocera](docs/catalog.md#batocera)**<br>电脑 → 复古游戏机<br>*已有使用方案*<br>需要: 16 GB drive minimum; 32 GB recommended
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+[![Lyrion Music Server: Squeezebox → local music endpoint](assets/lyrion-squeezebox.svg)](docs/catalog.md#lyrion-squeezebox)<br>**[Lyrion Music Server](docs/catalog.md#lyrion-squeezebox)**<br>Squeezebox → 本地音乐终端<br>*已有使用方案*<br>需要: Supported server computer
+
+</td>
+<td width="50%" valign="top">
+
+[![unmetaportal: Portal → Android appliance](assets/unmetaportal.svg)](docs/catalog.md#unmetaportal)<br>**[unmetaportal](docs/catalog.md#unmetaportal)**<br>Portal → 安卓专用设备<br>*已有使用方案*<br>需要: ADB\-enabled firmware
+
+</td>
+</tr>
+</table>
 
 ## 目录
 
