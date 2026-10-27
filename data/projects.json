@@ -1,0 +1,902 @@
+[
+  {
+    "id": "alfredcamera",
+    "name": "AlfredCamera",
+    "category": "Phones and tablets",
+    "url": "https://alfred.camera/",
+    "summary": "Assign a retired phone camera duty and view its feed from a newer device.",
+    "summary_zh": "让退役手机负责拍摄，用较新的设备查看实时画面。",
+    "outcome": "Phone → remote camera",
+    "outcome_zh": "手机 → 远程摄像头",
+    "devices": [
+      "Camera: Android 5+ or iOS 12+"
+    ],
+    "requirements": [
+      "Viewer: Android 7+ or iOS 15+",
+      "Network",
+      "Account"
+    ],
+    "status": "released",
+    "evidence_url": "https://support.alfred.camera/hc/en-us/articles/360039719851-How-do-I-set-up-AlfredCamera",
+    "evidence_note": "Official setup and current requirements reviewed; not tested.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Cloud service; paid features and retention limits apply."
+    ],
+    "steps": [
+      "Install AlfredCamera on both devices.",
+      "Sign in and assign Camera and Viewer roles.",
+      "Pair them and verify the live feed."
+    ],
+    "spotlight": false
+  },
+  {
+    "id": "audiorelay",
+    "name": "AudioRelay",
+    "category": "Phones and tablets",
+    "url": "https://audiorelay.net/downloads",
+    "summary": "Put an old Android phone beside you as a wireless speaker for computer audio.",
+    "summary_zh": "把旧安卓手机放在身边，作为电脑音频的无线扬声器。",
+    "outcome": "Phone → wireless speaker",
+    "outcome_zh": "手机 → 无线扬声器",
+    "devices": [
+      "Android 5+ phone"
+    ],
+    "requirements": [
+      "AudioRelay desktop app",
+      "Local network"
+    ],
+    "status": "released",
+    "evidence_url": "https://audiorelay.net/docs/windows/stream-audio-from-your-pc-to-your-phone",
+    "evidence_note": "Official download requirements and instructions reviewed; not tested.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Latency varies; paid Premium adds multiple receivers, custom quality and unlimited microphone use.",
+      "Sending other Android apps’ audio requires Android 10+."
+    ],
+    "steps": [
+      "Install AudioRelay on both devices.",
+      "Start the desktop sender.",
+      "Open Android Player and select the computer."
+    ],
+    "spotlight": false
+  },
+  {
+    "id": "droidcam",
+    "name": "DroidCam",
+    "category": "Phones and tablets",
+    "url": "https://droidcam.app/",
+    "summary": "Reuse a spare phone as a camera and microphone for desktop calls or OBS.",
+    "summary_zh": "把备用手机用作电脑通话或 OBS 的摄像头与麦克风。",
+    "outcome": "Phone → webcam",
+    "outcome_zh": "手机 → 网络摄像头",
+    "devices": [
+      "Supported Android phone or iPhone"
+    ],
+    "requirements": [
+      "Desktop client or OBS plugin",
+      "USB or local Wi-Fi"
+    ],
+    "status": "released",
+    "evidence_url": "https://droidcam.app/help/",
+    "evidence_note": "Developer setup reviewed; no device test.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Base features are free; paid Pro removes HD watermarks and unlocks options.",
+      "Check mobile OS requirements; older phones may need MJPEG."
+    ],
+    "steps": [
+      "Install the phone app and desktop client.",
+      "Connect by the documented USB or Wi-Fi route.",
+      "Select DroidCam in the receiving application."
+    ],
+    "spotlight": false
+  },
+  {
+    "id": "gretel",
+    "name": "Gretel",
+    "category": "Phones and tablets",
+    "url": "https://github.com/abeant/gretel",
+    "summary": "Make a spare Android device return to one chosen app whenever Home is pressed.",
+    "summary_zh": "让备用安卓设备按下主屏幕键后总是回到一个选定应用，成为专用工具。",
+    "outcome": "Android → focused appliance",
+    "outcome_zh": "安卓设备 → 专用工具",
+    "devices": [
+      "Android 8+ devices",
+      "BOOX Nova Air (developer-tested)"
+    ],
+    "requirements": [
+      "Device must expose Android Home-app selection"
+    ],
+    "status": "released",
+    "evidence_url": "https://github.com/abeant/gretel",
+    "evidence_note": "Developer tests each release on Nova Air; our review only.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Not a lock or parental control; Kindle/Fire unsupported."
+    ],
+    "steps": [
+      "Install the release APK.",
+      "Choose your single-purpose app.",
+      "Set Gretel as Home; double-press Home for settings."
+    ],
+    "spotlight": false
+  },
+  {
+    "id": "mixbus-touchosc",
+    "name": "Mixbus TouchOSC Layout",
+    "category": "Phones and tablets",
+    "url": "https://github.com/nicbeu/Mixbus-TouchOSC-Layout",
+    "summary": "Use an older tablet as tactile mixer, transport, and channel controls for a recording workstation.",
+    "summary_zh": "把旧平板变成录音工作站的触控调音台，控制音轨、走带与通道参数。",
+    "outcome": "Tablet → studio control surface",
+    "outcome_zh": "平板 → 录音控制台",
+    "devices": [
+      "Older iPad-sized iOS/Android tablet"
+    ],
+    "requirements": [
+      "Paid TouchOSC MK1 app",
+      "Paid Mixbus 10 license",
+      "Local network"
+    ],
+    "status": "released",
+    "evidence_url": "https://github.com/nicbeu/Mixbus-TouchOSC-Layout",
+    "evidence_note": "Author explicitly designed for older tablets; source review only.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Mixbus 8/9 OSC bugs; some compressor controls remain incomplete."
+    ],
+    "steps": [
+      "Import the supplied TouchOSC layout.",
+      "Enable OSC in Mixbus preferences.",
+      "Set matching host addresses and ports."
+    ],
+    "spotlight": false
+  },
+  {
+    "id": "navigatorosm",
+    "name": "NavigatorOSM",
+    "category": "Phones and tablets",
+    "url": "https://github.com/vibe-maribit/NavigatorOSM",
+    "summary": "Give an early iPad a dedicated map and navigation interface.",
+    "summary_zh": "让早期 iPad 重新拥有专用地图与导航界面。",
+    "outcome": "Old iPad → navigation display",
+    "outcome_zh": "旧 iPad → 导航显示屏",
+    "devices": [
+      "iPad mini 1 or iPad 2/3/4; iOS 9.3.5"
+    ],
+    "requirements": [
+      "Existing jailbreak/AppSync setup",
+      "Working GPS source",
+      "Network"
+    ],
+    "status": "released",
+    "evidence_url": "https://vibe-maribit.github.io/NavigatorOSM/",
+    "evidence_note": "Developer shows real iPad mini 1 screenshots; not tested here.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Wi-Fi models need GPS tethering; do not assume fully offline routing."
+    ],
+    "steps": [
+      "Follow the project’s certificate and compatibility prerequisites.",
+      "Install its Cydia package or released IPA.",
+      "Connect the documented GPS source and check positioning."
+    ],
+    "spotlight": false
+  },
+  {
+    "id": "octo4a",
+    "name": "Octo4a",
+    "category": "Phones and tablets",
+    "url": "https://github.com/feelfreelinux/octo4a",
+    "summary": "Give an Android phone the job of hosting OctoPrint and watching a USB 3D printer.",
+    "summary_zh": "把闲置安卓手机变成 OctoPrint 主机，连接 USB 3D 打印机并监看打印过程。",
+    "outcome": "Phone → printer host",
+    "outcome_zh": "手机 → 3D 打印主机",
+    "devices": [
+      "Android 5+ phone"
+    ],
+    "requirements": [
+      "USB OTG",
+      "700 MB free storage",
+      "Compatible USB printer"
+    ],
+    "status": "released",
+    "evidence_url": "https://github.com/feelfreelinux/octo4a/wiki/FAQ",
+    "evidence_note": "Upstream setup and compatibility review; not tested here.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Charging during OTG varies by phone."
+    ],
+    "steps": [
+      "Install the release APK.",
+      "Run Install OctoPrint with internet access.",
+      "Connect the printer through OTG; finish browser setup."
+    ],
+    "spotlight": true
+  },
+  {
+    "id": "openphotoframe",
+    "name": "OpenPhotoFrame",
+    "category": "Phones and tablets",
+    "url": "https://github.com/micw/OpenPhotoFrame",
+    "summary": "Turn an old Android tablet into a slideshow using local photos or a Nextcloud share.",
+    "summary_zh": "把旧安卓平板变成电子相框，播放本地照片或 Nextcloud 相册。",
+    "outcome": "Tablet → private photo frame",
+    "outcome_zh": "平板 → 私人电子相框",
+    "devices": [
+      "Android 7+ tablet; matching CPU architecture"
+    ],
+    "requirements": [
+      "Local photos or Nextcloud share"
+    ],
+    "status": "released",
+    "evidence_url": "https://github.com/micw/OpenPhotoFrame/releases/tag/v1.12.1",
+    "evidence_note": "Release APKs verified; source minSdk 24. README installation text lags; not tested.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "F-Droid availability is unconfirmed; choose the correct APK architecture."
+    ],
+    "steps": [
+      "Install the matching release APK.",
+      "Choose local photos or a Nextcloud share.",
+      "Set slide duration and synchronization interval."
+    ],
+    "spotlight": true,
+    "source_url": "https://github.com/micw/OpenPhotoFrame"
+  },
+  {
+    "id": "phyphox",
+    "name": "phyphox",
+    "category": "Phones and tablets",
+    "url": "https://phyphox.org/",
+    "summary": "Use a spare phone’s existing sensors for classroom measurements and export the resulting data.",
+    "summary_zh": "利用备用手机已有的传感器做课堂测量，并导出数据。",
+    "outcome": "Phone → pocket laboratory",
+    "outcome_zh": "手机 → 口袋实验室",
+    "devices": [
+      "Android 4+ phone",
+      "iPhone with iOS 12+"
+    ],
+    "requirements": [
+      "Sensors required by the chosen experiment"
+    ],
+    "status": "released",
+    "evidence_url": "https://apps.apple.com/us/app/phyphox/id1127319693",
+    "evidence_note": "Current App Store minimum supersedes older iOS FAQ; Android FAQ reviewed. Not tested.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Available measurements depend on actual sensors; readings need interpretation."
+    ],
+    "steps": [
+      "Install the stable app.",
+      "Choose an experiment supported by the phone.",
+      "Record and export measurements or save the state."
+    ],
+    "spotlight": false
+  },
+  {
+    "id": "spacedesk",
+    "name": "spacedesk",
+    "category": "Phones and tablets",
+    "url": "https://www.spacedesk.net/",
+    "summary": "Extend a Windows desktop onto an otherwise idle tablet.",
+    "summary_zh": "把闲置平板变成 Windows 电脑的扩展屏幕。",
+    "outcome": "Tablet → second monitor",
+    "outcome_zh": "平板 → 第二块显示器",
+    "devices": [
+      "Android 5+ tablet",
+      "iOS 9.3+ iPad"
+    ],
+    "requirements": [
+      "Windows 10/11 host",
+      "LAN or supported USB connection"
+    ],
+    "status": "released",
+    "evidence_url": "https://manual.spacedesk.net/SystemRequirements1.html",
+    "evidence_note": "Current official compatibility table reviewed; not device-tested.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Free for non-commercial use; standard business use requires a paid license.",
+      "Free driver versions expire and need updating; connection support varies by OS."
+    ],
+    "steps": [
+      "Install the host driver.",
+      "Install the tablet viewer and connect.",
+      "Choose extended desktop in display settings."
+    ],
+    "spotlight": false,
+    "media_url": "https://www.youtube.com/watch?v=YkWZSwBD-XY",
+    "media_note": "Developer video linked from official Google Play listing; link only, reuse license not established."
+  },
+  {
+    "id": "superdisplay",
+    "name": "SuperDisplay",
+    "category": "Phones and tablets",
+    "url": "https://superdisplay.app/",
+    "summary": "Turn an Android tablet with a pressure-sensitive stylus into a drawing surface for desktop art software.",
+    "summary_zh": "把支持压感笔的安卓平板变成电脑绘画板，在桌面绘画软件中使用。",
+    "outcome": "Pen tablet → drawing display",
+    "outcome_zh": "手写平板 → 数位屏",
+    "devices": [
+      "Compatible Android tablet with stylus"
+    ],
+    "requirements": [
+      "Windows 10 1703+ 64-bit",
+      "Windows driver",
+      "USB",
+      "Paid unlock after the three-day trial"
+    ],
+    "status": "released",
+    "evidence_url": "https://superdisplay.app/help/",
+    "evidence_note": "Official stylus and host requirements reviewed; not tested.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "One Android display per PC; verify pen and PC compatibility during the trial."
+    ],
+    "steps": [
+      "Install the Android app and Windows driver.",
+      "Connect the tablet by USB.",
+      "Open desktop drawing software and test pen pressure."
+    ],
+    "spotlight": false
+  },
+  {
+    "id": "desk-buddy",
+    "name": "Desk Buddy",
+    "category": "E-readers",
+    "url": "https://github.com/deskbuddy-app/desk-buddy",
+    "summary": "A 2013 Paperwhite becomes a desk display for tasks, calendar, music controls, and app shortcuts.",
+    "summary_zh": "把 2013 年的 Paperwhite 变成桌面助理，显示任务和日历，并控制音乐、打开电脑应用。",
+    "outcome": "Paperwhite → desk companion",
+    "outcome_zh": "Paperwhite → 桌面助理",
+    "devices": [
+      "Paperwhite 2; firmware 5.12.x"
+    ],
+    "requirements": [
+      "Jailbreak with hotfix",
+      "macOS 13+",
+      "2.4 GHz WPA2 Wi-Fi"
+    ],
+    "status": "released",
+    "evidence_url": "https://github.com/deskbuddy-app/desk-buddy",
+    "evidence_note": "Author daily-tests Paperwhite 2; our source review only.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Other Kindles unconfirmed; Windows version is early testing; Mac must remain awake."
+    ],
+    "steps": [
+      "Install the desktop app.",
+      "Connect Kindle by USB and transfer Desk Buddy.",
+      "Open it from the Kindle library."
+    ],
+    "spotlight": true
+  },
+  {
+    "id": "kindle-carousel",
+    "name": "Kindle Carousel",
+    "category": "E-readers",
+    "url": "https://github.com/qadzek/kindle-carousel",
+    "summary": "Use Kindle page buttons to browse a rotating set of e-ink web dashboards.",
+    "summary_zh": "用 Kindle 翻页键切换和浏览轮播的墨水屏网页看板。",
+    "outcome": "Kindle → interactive dashboard",
+    "outcome_zh": "Kindle → 交互式看板",
+    "devices": [
+      "Kindle 3 Keyboard",
+      "Kindle 4 non-touch"
+    ],
+    "requirements": [
+      "Jailbreak and SSH",
+      "Screenshot server",
+      "Wi-Fi"
+    ],
+    "status": "source-build",
+    "evidence_url": "https://github.com/qadzek/kindle-carousel",
+    "evidence_note": "Author documents these two models; source review only.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Button listening reduces battery life to days."
+    ],
+    "steps": [
+      "Deploy the web frontends.",
+      "Configure the screenshot server.",
+      "Install the Kindle client and assign dashboard rotation."
+    ],
+    "spotlight": false,
+    "media_url": "https://www.youtube.com/shorts/efZBwJXBD3U",
+    "media_note": "Author demo linked in README; video fetch throttled; no reuse license established."
+  },
+  {
+    "id": "koreader",
+    "name": "KOReader",
+    "category": "E-readers",
+    "url": "https://github.com/koreader/koreader",
+    "summary": "Give supported e-readers broader document formats, PDF reflow, dictionaries, and self-hosted library access.",
+    "summary_zh": "为受支持的阅读器增加文档格式、PDF 重排、词典与自建书库访问能力。",
+    "outcome": "E-reader → reference library",
+    "outcome_zh": "阅读器 → 文档参考库",
+    "devices": [
+      "Supported Kindle, Kobo, PocketBook and other listed models"
+    ],
+    "requirements": [
+      "Model-specific installation prerequisites",
+      "DRM-free documents"
+    ],
+    "status": "released",
+    "evidence_url": "https://github.com/koreader/koreader",
+    "evidence_note": "Upstream platform list and installation links reviewed; not tested.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Installation differs by model; Kindle generally requires jailbreak."
+    ],
+    "steps": [
+      "Check the model’s installation guide.",
+      "Install its matching release package.",
+      "Add documents and configure reading or dictionary options."
+    ],
+    "spotlight": false
+  },
+  {
+    "id": "batocera",
+    "name": "Batocera",
+    "category": "Computers",
+    "url": "https://batocera.org/",
+    "summary": "Boot a retired PC directly into a controller-friendly retro gaming system.",
+    "summary_zh": "让退役电脑直接启动为可用手柄操作的复古游戏机。",
+    "outcome": "PC → retro console",
+    "outcome_zh": "电脑 → 复古游戏机",
+    "devices": [
+      "Compatible x86-64 PC or laptop"
+    ],
+    "requirements": [
+      "16 GB drive minimum; 32 GB recommended",
+      "Controller",
+      "Your own game files"
+    ],
+    "status": "released",
+    "evidence_url": "https://wiki.batocera.org/install_batocera",
+    "evidence_note": "Official installer and old-PC guidance reviewed; not tested.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Emulation performance depends on hardware; flashing erases the selected drive."
+    ],
+    "steps": [
+      "Download the matching image.",
+      "Write it to a spare drive and boot.",
+      "Configure controls and add your game files."
+    ],
+    "spotlight": true,
+    "media_url": "https://www.youtube.com/watch?v=KUfHAFyjby0",
+    "media_note": "ETA PRIME demonstration linked by official Batocera installation guide; link only, reuse license not established."
+  },
+  {
+    "id": "daphile",
+    "name": "Daphile",
+    "category": "Computers",
+    "url": "https://www.daphile.com/",
+    "summary": "Run a headless music player and CD-ripping station on a retired PC.",
+    "summary_zh": "用退役电脑搭建无需显示器的音乐播放器和 CD 抓轨工作站。",
+    "outcome": "PC → music appliance",
+    "outcome_zh": "电脑 → 音乐专机",
+    "devices": [
+      "x86 computer; 32-bit image available"
+    ],
+    "requirements": [
+      "512 MB RAM",
+      "2 GB boot storage",
+      "Audio device",
+      "Browser controller"
+    ],
+    "status": "released",
+    "evidence_url": "https://www.daphile.com/download/DaphileInstallation.pdf",
+    "evidence_note": "Official installation guide and current downloads reviewed; not tested.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Default installation deletes target storage; hardware audio support varies."
+    ],
+    "steps": [
+      "Write the ISO to USB.",
+      "Boot and open its browser interface.",
+      "Install to target storage and configure music/audio."
+    ],
+    "spotlight": false,
+    "media_url": "https://www.daphile.com/screenshots/audio_player.png",
+    "media_note": "Daphile official screenshot; site reserves all rights. Link for reference; no asset downloaded."
+  },
+  {
+    "id": "home-assistant-os",
+    "name": "Home Assistant OS",
+    "category": "Computers",
+    "url": "https://www.home-assistant.io/installation/generic-x86-64/",
+    "summary": "Turn a spare mini PC into a dedicated home-automation controller.",
+    "summary_zh": "把备用迷你电脑变成专用家庭自动化主机。",
+    "outcome": "Mini PC → automation hub",
+    "outcome_zh": "迷你电脑 → 家庭自动化中枢",
+    "devices": [
+      "64-bit Intel/AMD computer with UEFI"
+    ],
+    "requirements": [
+      "Ethernet",
+      "Internet for initial setup",
+      "Dedicated boot storage"
+    ],
+    "status": "released",
+    "evidence_url": "https://www.home-assistant.io/installation/generic-x86-64/",
+    "evidence_note": "Official generic-PC installation reviewed; not tested.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Image installation overwrites the selected drive; legacy BIOS is outside this guide."
+    ],
+    "steps": [
+      "Check UEFI and installation prerequisites.",
+      "Write the generic x86-64 OS image.",
+      "Boot with Ethernet and finish browser onboarding."
+    ],
+    "spotlight": false
+  },
+  {
+    "id": "kiwix-server",
+    "name": "Kiwix Server",
+    "category": "Computers",
+    "url": "https://get.kiwix.org/en/solutions/applications/kiwix-server/",
+    "summary": "Let an old computer serve offline Wikipedia and other archived websites to nearby browsers.",
+    "summary_zh": "让旧电脑向同一局域网中的浏览器提供离线维基百科与其他网站档案。",
+    "outcome": "PC → offline knowledge server",
+    "outcome_zh": "电脑 → 离线知识服务器",
+    "devices": [
+      "Computer supported by available kiwix-tools packages"
+    ],
+    "requirements": [
+      "ZIM archives",
+      "Local network",
+      "Sufficient disk space"
+    ],
+    "status": "released",
+    "evidence_url": "https://get.kiwix.org/en/solutions/applications/kiwix-server/",
+    "evidence_note": "Official server distribution and usage reviewed; not tested.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Archive size drives storage needs; archives are snapshots."
+    ],
+    "steps": [
+      "Install the appropriate kiwix-tools package.",
+      "Download chosen ZIM files while online.",
+      "Start kiwix-serve and open its LAN address."
+    ],
+    "spotlight": false
+  },
+  {
+    "id": "kolibri",
+    "name": "Kolibri",
+    "category": "Computers",
+    "url": "https://learningequality.org/kolibri/",
+    "summary": "Reuse modest computers as a local learning server and classroom terminals, with downloaded course content.",
+    "summary_zh": "把配置不高的电脑变成局域网学习服务器与课堂终端，提供预先下载的课程。",
+    "outcome": "Old PCs → offline classroom",
+    "outcome_zh": "旧电脑 → 离线课堂",
+    "devices": [
+      "Linux/Windows computer; very old PCs can be clients"
+    ],
+    "requirements": [
+      "Server: 1 GB Linux / 2 GB Windows RAM recommended",
+      "Content storage"
+    ],
+    "status": "released",
+    "evidence_url": "https://kolibri.readthedocs.io/en/latest/install/system_requirements.html",
+    "evidence_note": "Official requirements and installation guide reviewed; not tested.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Download/import content first; client video playback needs compatible drivers."
+    ],
+    "steps": [
+      "Install the OS-specific package.",
+      "Complete facility setup and import channels.",
+      "Connect classroom browsers over the local network."
+    ],
+    "spotlight": false
+  },
+  {
+    "id": "libreelec",
+    "name": "LibreELEC",
+    "category": "Computers",
+    "url": "https://libreelec.tv/downloads/generic/",
+    "summary": "Make an unused PC boot straight into Kodi for local and network media playback.",
+    "summary_zh": "让闲置电脑直接启动 Kodi，播放本地或局域网中的影音。",
+    "outcome": "PC → living-room media player",
+    "outcome_zh": "电脑 → 客厅播放器",
+    "devices": [
+      "Compatible x86-64 PC, nettop or laptop"
+    ],
+    "requirements": [
+      "Matching Generic or Generic-legacy image",
+      "Boot drive"
+    ],
+    "status": "released",
+    "evidence_url": "https://wiki.libreelec.tv/hardware/intel-x86-64-generic",
+    "evidence_note": "Official hardware and image documentation reviewed; not tested.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Very old drivers may be absent; NVIDIA needs the appropriate legacy build."
+    ],
+    "steps": [
+      "Choose the hardware-appropriate image.",
+      "Create boot media with the official tool.",
+      "Boot and configure Kodi media sources."
+    ],
+    "spotlight": false
+  },
+  {
+    "id": "openmediavault",
+    "name": "openmediavault",
+    "category": "Computers",
+    "url": "https://www.openmediavault.org/",
+    "summary": "Give an old computer a shared-storage role with browser-managed folders and network file services.",
+    "summary_zh": "把旧电脑变成共享存储设备，通过浏览器管理文件夹与网络文件服务。",
+    "outcome": "PC → home NAS",
+    "outcome_zh": "电脑 → 家庭 NAS",
+    "devices": [
+      "Debian-supported computer"
+    ],
+    "requirements": [
+      "1 GB RAM minimum; more recommended",
+      "Storage and network"
+    ],
+    "status": "released",
+    "evidence_url": "https://docs.openmediavault.org/en/latest/prerequisites.html",
+    "evidence_note": "Official prerequisites and Samba documentation reviewed; not tested.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Hardware support follows Debian; access needs both share and filesystem permissions."
+    ],
+    "steps": [
+      "Install using the official guide.",
+      "Create storage folders and user permissions.",
+      "Enable the relevant shares and verify client access."
+    ],
+    "spotlight": false
+  },
+  {
+    "id": "openwrt-access-point",
+    "name": "OpenWrt Bridged Access Point",
+    "category": "Routers",
+    "url": "https://openwrt.org/docs/guide-user/network/wifi/wifiextenders/bridgedap",
+    "summary": "Reuse a supported router as an additional wired-backhaul Wi-Fi access point.",
+    "summary_zh": "把受支持的旧路由器改作通过网线回程的额外 Wi-Fi 接入点。",
+    "outcome": "Router → additional Wi-Fi coverage",
+    "outcome_zh": "旧路由器 → 扩展 Wi-Fi 覆盖",
+    "devices": [
+      "OpenWrt-supported router; exact hardware revision matters"
+    ],
+    "requirements": [
+      "Supported OpenWrt installed",
+      "Ethernet uplink",
+      "Main router"
+    ],
+    "status": "released",
+    "evidence_url": "https://openwrt.org/zh/docs/guide-user/network/wifi/dumbap",
+    "evidence_note": "Official configuration indexed; direct English page presents bot challenge. Not tested.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Older instructions may require DSA adaptation; unsupported/EOL models excluded."
+    ],
+    "steps": [
+      "Check current model support.",
+      "Apply the documented bridge and DHCP settings.",
+      "Connect the LAN uplink and test clients."
+    ],
+    "spotlight": false
+  },
+  {
+    "id": "pspdisp",
+    "name": "PSPdisp",
+    "category": "Consoles",
+    "url": "https://www.jjs.at/software/pspdisp.html",
+    "summary": "Use a homebrew-enabled PSP as a tiny computer display and input controller.",
+    "summary_zh": "把已有自制软件环境的 PSP 变成迷你电脑显示器与输入控制器。",
+    "outcome": "PSP → miniature PC terminal",
+    "outcome_zh": "PSP → 迷你电脑终端",
+    "devices": [
+      "PSP with custom firmware or HEN"
+    ],
+    "requirements": [
+      "Compatible Windows PC",
+      "USB or Wi-Fi"
+    ],
+    "status": "archived",
+    "evidence_url": "https://www.jjs.at/software/pspdisp.html",
+    "evidence_note": "Historical developer release and compatibility notes reviewed; not tested.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Legacy experiment: extended-display driver unsupported on Windows 8+; fullscreen capture limitations."
+    ],
+    "steps": [
+      "Install the documented Windows package.",
+      "Copy PSPdisp into the PSP game folder.",
+      "Launch both sides and select connection/display mode."
+    ],
+    "spotlight": false
+  },
+  {
+    "id": "wiimc",
+    "name": "WiiMC",
+    "category": "Consoles",
+    "url": "https://github.com/dborth/wiimc",
+    "summary": "Turn a homebrew-enabled Wii into a living-room player for your own media files.",
+    "summary_zh": "把已有自制软件环境的 Wii 变成客厅本地影音播放器。",
+    "outcome": "Wii → media player",
+    "outcome_zh": "Wii → 影音播放器",
+    "devices": [
+      "Nintendo Wii"
+    ],
+    "requirements": [
+      "Homebrew Channel",
+      "Compatible SD/USB media"
+    ],
+    "status": "released",
+    "evidence_url": "https://www.wiimc.org/documentation/setup/",
+    "evidence_note": "Project source and setup docs reviewed; not tested.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Current GitHub build is prerelease; NTFS was removed despite older setup docs. Use FAT media."
+    ],
+    "steps": [
+      "Install the matching WiiMC release.",
+      "Copy media to compatible storage.",
+      "Launch through Homebrew Channel and choose files."
+    ],
+    "spotlight": false,
+    "source_url": "https://github.com/dborth/wiimc"
+  },
+  {
+    "id": "airconnect",
+    "name": "AirConnect",
+    "category": "Retired connected devices",
+    "url": "https://github.com/philippe44/AirConnect",
+    "summary": "Add an AirPlay audio entry point to older Sonos, UPnP, or Chromecast speakers.",
+    "summary_zh": "为较旧的 Sonos、UPnP 或 Chromecast 音箱增加 AirPlay 音频入口。",
+    "outcome": "Older speaker → AirPlay destination",
+    "outcome_zh": "旧音箱 → AirPlay 播放目标",
+    "devices": [
+      "Supported Sonos/UPnP/Chromecast players"
+    ],
+    "requirements": [
+      "Always-running local bridge computer",
+      "Same network segment"
+    ],
+    "status": "released",
+    "evidence_url": "https://github.com/philippe44/AirConnect",
+    "evidence_note": "Upstream binaries and operation guide reviewed; not tested.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Audio-only; latency is unsuitable for synchronized video."
+    ],
+    "steps": [
+      "Choose the platform’s prebuilt binary.",
+      "Run airupnp or aircast for the speaker type.",
+      "Select the discovered AirPlay destination."
+    ],
+    "spotlight": false
+  },
+  {
+    "id": "gadgetbridge-pebble",
+    "name": "Gadgetbridge for Pebble",
+    "category": "Retired connected devices",
+    "url": "https://gadgetbridge.org/gadgets/wearables/pebble/",
+    "summary": "Keep an original Pebble useful through an independent Android companion and local watch management.",
+    "summary_zh": "通过独立安卓伴侣应用与本地管理，让老 Pebble 手表继续使用。",
+    "outcome": "Pebble → independent smartwatch",
+    "outcome_zh": "Pebble → 独立使用的智能手表",
+    "devices": [
+      "Pebble Classic, Steel, Time and listed variants"
+    ],
+    "requirements": [
+      "Supported Android phone",
+      "Bluetooth"
+    ],
+    "status": "released",
+    "evidence_url": "https://gadgetbridge.org/basics/pairing/pebble/",
+    "evidence_note": "Maintainer support matrix and pairing guide reviewed; not tested.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Pairing/firmware procedures differ by generation; some models need migration firmware."
+    ],
+    "steps": [
+      "Install Gadgetbridge.",
+      "Follow the exact Pebble-model pairing guide.",
+      "Initialize the watch and configure supported features."
+    ],
+    "spotlight": false
+  },
+  {
+    "id": "lyrion-squeezebox",
+    "name": "Lyrion Music Server",
+    "category": "Retired connected devices",
+    "url": "https://lyrion.org/getting-started/",
+    "summary": "Reconnect a Squeezebox to a local music library served by community-maintained software.",
+    "summary_zh": "用社区维护的软件，让 Squeezebox 重新播放本地音乐库。",
+    "outcome": "Squeezebox → local music endpoint",
+    "outcome_zh": "Squeezebox → 本地音乐终端",
+    "devices": [
+      "Logitech Squeezebox Touch and supported players"
+    ],
+    "requirements": [
+      "Supported server computer",
+      "Local music",
+      "Same network"
+    ],
+    "status": "released",
+    "evidence_url": "https://preview.lyrion.org/players-and-controllers/squeezebox-touch/",
+    "evidence_note": "Maintainer player and server setup docs reviewed; not tested.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "A server must remain available; streaming-service plugins have separate dependencies."
+    ],
+    "steps": [
+      "Install Lyrion on the server.",
+      "Configure its music library through the web interface.",
+      "Connect the Squeezebox to the local server."
+    ],
+    "spotlight": true
+  },
+  {
+    "id": "mirror-repurpose",
+    "name": "MIRROR Repurpose",
+    "category": "Retired connected devices",
+    "url": "https://github.com/TimStewartJ/lululemon-mirror-repurpose",
+    "summary": "Replace the workout interface with a local clock, photo display, dashboard, or media receiver.",
+    "summary_zh": "将健身镜原有界面改为本地时钟、照片展示、看板或媒体接收器。",
+    "outcome": "Fitness mirror → home display",
+    "outcome_zh": "健身镜 → 家庭显示终端",
+    "devices": [
+      "Qualcomm MIRROR; Android 6.0.1 IFC-6309-2.0-MIR/329"
+    ],
+    "requirements": [
+      "Existing documented ADB/provisioning access",
+      "Matching APK"
+    ],
+    "status": "released",
+    "evidence_url": "https://github.com/TimStewartJ/lululemon-mirror-repurpose",
+    "evidence_note": "Author device-validates appliance; fresh-stock installation not established. Our source review only.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Later NXP models unsupported; optional privileged helper excluded here."
+    ],
+    "steps": [
+      "Confirm the exact hardware and firmware.",
+      "Follow standard MirrorHome APK installation documentation.",
+      "Set the home app and configure its display."
+    ],
+    "spotlight": false
+  },
+  {
+    "id": "unmetaportal",
+    "name": "unmetaportal",
+    "category": "Retired connected devices",
+    "url": "https://github.com/fcjr/unmetaportal",
+    "summary": "Replace the retired Portal experience with an ordinary Android launcher and chosen applications.",
+    "summary_zh": "将退役 Portal 的原有界面替换为普通安卓启动器，自选应用继续使用。",
+    "outcome": "Portal → Android appliance",
+    "outcome_zh": "Portal → 安卓专用设备",
+    "devices": [
+      "Portal/Portal+ aloha; Portal TV ripley"
+    ],
+    "requirements": [
+      "ADB-enabled firmware",
+      "Authorized USB ADB",
+      "Platform tools"
+    ],
+    "status": "released",
+    "evidence_url": "https://github.com/fcjr/unmetaportal",
+    "evidence_note": "Developer tested Portal+ build 1.44.4; broader profiles documented, not tested here.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Android 9 app limits; TV needs its separate launcher profile."
+    ],
+    "steps": [
+      "Confirm model/firmware and authorize ADB.",
+      "Review the script dry run.",
+      "Run the matching conversion profile and verify Home."
+    ],
+    "spotlight": true
+  }
+]

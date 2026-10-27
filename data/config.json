@@ -1,0 +1,99 @@
+{
+  "slug": "awesome-device-afterlife",
+  "title": "Awesome Device Afterlife",
+  "title_zh": "Awesome Device Afterlife · 旧设备的新用途",
+  "tagline": "Old hardware. New purpose.",
+  "tagline_zh": "让旧设备，再有一个好用途。",
+  "description": "An illustrated collection of useful new jobs for hardware you already own: phones, e-readers, computers, consoles and retired connected devices.",
+  "description_zh": "从手头已有的手机、阅读器、电脑、游戏机和退役联网设备出发，寻找值得动手的新用途。每个项目都附条件、步骤和原始来源。",
+  "theme": "afterlife",
+  "categories": [
+    {
+      "id": "phones-and-tablets",
+      "name": "Phones and tablets",
+      "name_zh": "手机与平板",
+      "description": "Cameras, displays, instruments and dedicated appliances made from spare mobile devices.",
+      "description_zh": "把闲置移动设备变成摄像头、显示器、测量工具或专用终端。"
+    },
+    {
+      "id": "e-readers",
+      "name": "E-readers",
+      "name_zh": "电子阅读器",
+      "description": "E-ink dashboards, desktop companions and expanded reading workflows.",
+      "description_zh": "墨水屏看板、桌面助理，以及更丰富的阅读用途。"
+    },
+    {
+      "id": "computers",
+      "name": "Computers",
+      "name_zh": "电脑",
+      "description": "Give a retired computer one clear job: entertainment, storage, automation or offline knowledge.",
+      "description_zh": "为退役电脑安排一个明确用途：影音、存储、自动化或离线知识服务。"
+    },
+    {
+      "id": "routers",
+      "name": "Routers",
+      "name_zh": "路由器",
+      "description": "Extend a network using supported hardware and a documented configuration.",
+      "description_zh": "用仍受支持的硬件和明确配置，扩展现有网络。"
+    },
+    {
+      "id": "consoles",
+      "name": "Consoles",
+      "name_zh": "游戏机",
+      "description": "New roles for older consoles, with homebrew and legacy limits made explicit.",
+      "description_zh": "旧游戏机的新用途，明确标注自制软件环境与旧版限制。"
+    },
+    {
+      "id": "retired-connected-devices",
+      "name": "Retired connected devices",
+      "name_zh": "退役联网设备",
+      "description": "Keep useful hardware alive through replacement software, local services and new interfaces.",
+      "description_zh": "借助替代软件、本地服务和新界面，让仍可用的硬件继续工作。"
+    }
+  ],
+  "spotlights": [
+    {
+      "id": "octo4a",
+      "from": "Android phone",
+      "to": "Printer host",
+      "icon": "phone",
+      "output": "server"
+    },
+    {
+      "id": "openphotoframe",
+      "from": "Spare tablet",
+      "to": "Photo frame",
+      "icon": "tablet",
+      "output": "frame"
+    },
+    {
+      "id": "desk-buddy",
+      "from": "Paperwhite 2",
+      "to": "Desk companion",
+      "icon": "reader",
+      "output": "dashboard"
+    },
+    {
+      "id": "batocera",
+      "from": "Retired PC",
+      "to": "Retro console",
+      "icon": "laptop",
+      "output": "game"
+    },
+    {
+      "id": "lyrion-squeezebox",
+      "from": "Squeezebox",
+      "to": "Local music",
+      "icon": "tablet",
+      "output": "music"
+    },
+    {
+      "id": "unmetaportal",
+      "from": "Retired Portal",
+      "to": "Android apps",
+      "icon": "tablet",
+      "output": "dashboard"
+    }
+  ],
+  "sibling": "**Explore next:** [awesome-unexpected-inputs](https://github.com/KeWang0622/awesome-unexpected-inputs) · [Awesome iPhone Duo](https://github.com/KeWang0622/awesome-iphone-duo)"
+}
